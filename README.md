@@ -1,16 +1,41 @@
-# notes
+# adnan notes app
 
-A new Flutter project.
+a local notes app on both android and apple
 
-## Getting Started
+## features:
+* user friendly
+* language detection(if it's from rtl or ltr)
+* CRUD operation
 
-This project is a starting point for a Flutter application.
+## technology:
+* flutter
+* mysqlite
+* provider state management
 
-A few resources to get you started if this is your first Flutter project:
+## how to run it:
+* download flutter
+* download ide for flutter(ex:vscode)
+* open the folder in the ide
+* run flutter pub get in vs terminal or cd to the folder and run it there
+* go to main.dart in lib file and debug it either on your device or on the emulator
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## example of usage:
+<details>
+  <summary>create new note</summary>
+  <br>
+<img width="100" src="https://user-images.githubusercontent.com/55524560/225320727-83195ba9-0a09-4c38-801d-8e53e7f240bb.png">
+<img width="100" src="https://user-images.githubusercontent.com/55524560/225320948-4e3f38a2-9e78-4b40-8a18-549da39fc234.png">
+</details>
+<details>
+  <summary>edit existing note or open your note</summary>
+  <br>
+  <img width="100" src="https://user-images.githubusercontent.com/55524560/225320727-83195ba9-0a09-4c38-801d-8e53e7f240bb.png">
+<img width="100" src="https://user-images.githubusercontent.com/55524560/225320937-40067fec-71de-4868-863e-19e3403ab39b.png">
+</details>
+<details>
+  <summary>delete note</summary>
+  <br>
+  <h5>hold on the note so the bin get visible to delete the note and press anywhere on the screen to disable it again</h5>
+    <img width="100" src="https://user-images.githubusercontent.com/55524560/225320727-83195ba9-0a09-4c38-801d-8e53e7f240bb.png">
+<img width="100" src="https://user-images.githubusercontent.com/55524560/225320957-ea77c8e4-bab1-4a6e-9439-ce1f4e5bc861.png">
+</details>
